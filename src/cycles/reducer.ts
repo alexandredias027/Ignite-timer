@@ -4,7 +4,6 @@ import { ActionTypes } from "../enum/ActionEnum";
 import { Cycle } from "../interfaces/CyclesInterface";
 
 
-
 interface CyclesState {
     cycles: Cycle[];
     activeCycleId: string | null;
